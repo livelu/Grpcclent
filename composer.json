@@ -10,8 +10,8 @@
     "minimum-stability": "dev",
     "autoload":{
       "psr-4":{
-        "goExpl\\GPBMetadata\\":"src/goExpl/GPBMetadata/",
-        "goExpl\\Example\\":"src/goExpl/Example/"
+        "hirpc\\GPBMetadata\\":"src/hirpc/GPBMetadata/",
+        "hirpc\\Example\\":"src/hirpc/Example/"
       }
     }
 }
