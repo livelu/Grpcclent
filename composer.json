@@ -1,0 +1,14 @@
+{
+  "name": "grpc/gophp",
+  "require": {
+    "grpc/grpc": "^v1.19",
+    "google/protobuf": "^v3.7"
+  },
+  "version": "1.0",
+  "autoload":{
+    "psr-4":{
+      "GPBMetadata\\":"GPBMetadata/",
+      "Example\\":"Example/"
+    }
+  }
+}
