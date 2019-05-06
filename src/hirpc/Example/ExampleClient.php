@@ -21,7 +21,7 @@ class ExampleClient extends \Grpc\BaseStub {
      * @param array $metadata metadata
      * @param array $options call options
      */
-    public function Call(\Example\GrpcRequest $argument,
+    public function Call(\hirpc\Example\GrpcRequest $argument,
       $metadata = [], $options = []) {
         return $this->_simpleRequest('/example.Example/Call',
         $argument,
