@@ -1,7 +1,7 @@
 <?php
 // GENERATED CODE -- DO NOT EDIT!
 
-namespace Example;
+namespace goExpl\Example;
 
 /**
  */
@@ -25,7 +25,7 @@ class ExampleClient extends \Grpc\BaseStub {
       $metadata = [], $options = []) {
         return $this->_simpleRequest('/example.Example/Call',
         $argument,
-        ['\Example\GrpcResponse', 'decode'],
+        ['\goExpl\Example\GrpcResponse', 'decode'],
         $metadata, $options);
     }
 
